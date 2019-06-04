@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appColor1"
+    android:padding="15dp"
+    tools:context="com.example.codezero.stu_pedia.AboutUs">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/stupediacover"
+        app:civ_border_width="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app named Stu-Pedia is developed by the following:\n1.Harshit Saraswat\n\n2.Shreya Sharma\n\n3.Abhishek Singh\n\n4.Anisha Gupta\n\n5.Kartik Sagar\n\nWe're all students who're part of MaqBots- The Robotics Club of Maharaja Agrasen Institute of Technology,HP."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

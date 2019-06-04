@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/appColor4"
+    tools:context="com.example.codezero.stu_pedia.Question">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Question"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="16"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ques_TV"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="16"
+        android:inputType="textPersonName"
+        android:id="@+id/name_TV"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="16"
+        android:inputType="text"
+        android:id="@+id/username_TV"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Comments"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        android:ems="16"
+        android:inputType="text"
+        android:id="@+id/ans_TV"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor5"
+        android:text="Submit Question"
+        android:layout_marginTop="10dp"
+        android:ems="9"
+        android:onClick="onSubmitQues"/>
+</LinearLayout>

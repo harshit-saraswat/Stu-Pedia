@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/appColor4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:id="@+id/nameTV"
+        android:layout_toRightOf="@id/name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:id="@+id/username"
+        android:layout_below="@id/name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:id="@+id/usernameTV"
+        android:layout_below="@id/nameTV"
+        android:layout_toRightOf="@id/username"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ques: "
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/question"
+        android:layout_below="@id/usernameTV"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:id="@+id/questionTV"
+        android:layout_below="@id/usernameTV"
+        android:layout_toRightOf="@id/question"/>
+
+</RelativeLayout>

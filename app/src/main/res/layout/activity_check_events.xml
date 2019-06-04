@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/appColor4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name: "
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/eventname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="event name"
+        android:padding="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:id="@+id/eventnameTV"
+        android:layout_toRightOf="@id/eventname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Co-ordinator: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:id="@+id/coordinator"
+        android:layout_below="@id/eventname" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coordinator"
+        android:textSize="16sp"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:id="@+id/coordinatorTV"
+        android:layout_below="@id/eventnameTV"
+        android:layout_toRightOf="@id/coordinator"/>
+
+</RelativeLayout>
